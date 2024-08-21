@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int num1;
+
+int main(void) {
+  printf("Escreva a area do circulo:");
+  scanf("%i", &num1);
+  float area = 3.141593 * num1 * num1;
+  printf("A area do circulo e: %f", area);
+  return 0;
+}
