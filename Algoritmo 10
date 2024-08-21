@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int i;
+int main(void) {
+  printf("VAI COMECAR A CONTAGEM!!!:\n");
+ for(i = 10; i > 0; i --){
+   printf("%i\n\n", i);
+   sleep(1);
+ }
+  return 0;
+}
